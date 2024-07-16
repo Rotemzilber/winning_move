@@ -1,0 +1,566 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body {
+    font-family: "Assistant", sans-serif;
+    line-height: 1.6;
+    background-color: #A6978A;
+    color: #333;
+}
+
+h1 {
+    font-family: "Secular One", sans-serif;
+}
+
+h2 {
+    font-family: "Secular One", sans-serif;
+}
+
+h3 {
+    font-family: "Varela Round", sans-serif;
+}
+
+h4 {
+    font-family: "Assistant", sans-serif;
+}
+
+header {
+    background-color: #F2E3D5;
+    color: #252940;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #593C4C;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: "Assistant", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li:hover {
+    background-color: #A66F6F;
+    padding: 12px 0;
+}
+
+nav ul li a {
+    color: #F2E3D5;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.breadcrumb {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #2e3d49;
+}
+
+.breadcrumb span {
+    color: #999;
+}
+
+main {
+    padding-top: 40px;
+}
+
+
+#homePage {
+    background-image: url("../Images/chess-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#homePage h1 {
+    position: absolute;
+    top: 32%;
+    right: 4%;
+    color: whitesmoke;
+    font-size: 128px;
+}
+
+#homePage h2 {
+    position: absolute;
+    top: 50%;
+    right: 6.4%;
+    color: whitesmoke;
+    font-size: 44px;
+}
+
+#homePage button {
+    position: absolute;
+    top: 62%;
+    right: 21%;
+    height: 100px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    background-color: whitesmoke;
+    color: #593C4C;
+    font-size: 42px;
+    font-family: "Secular One", sans-serif;
+    font-weight: bold;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.aboutheaders {
+    font-size: 32px;
+}
+
+.aboutContent {
+    max-width: 40%;
+    margin: 0;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#aboutPages {
+    position: absolute;
+    width: 11%;
+    top: 19.9%;
+    right: 45%;
+}
+
+#aboutPages ul li {
+    list-style-position: inside;
+    list-style-image: url('../Icons/golden-pawn.png');
+    margin-bottom: 1px; 
+    padding: 5px; 
+    line-height: 1; 
+}
+
+#aboutPages ul li a {
+    text-decoration: none;
+    color: #2e3d49;
+    vertical-align: super;
+}
+
+#apHeader {
+    position: absolute;
+    bottom: 80%;
+    right: 45%;    
+}
+
+
+#myPic {
+    border-radius: 50%;
+    position: relative;
+    right: 250px;
+}
+
+#uniLogo {
+    position: absolute;
+    top: 74%;
+    right: 27%;
+    height: 70px;
+    width: 220px;
+}
+
+#oneThirdPic {
+    height: 740px;
+    width: 590px;
+    position: absolute;
+    top: 12.1%;
+    right: 66%;
+}
+
+#glossaryHeader {
+    text-align: center;
+    font-size: 36px;
+}
+
+#glossarySubHeader {
+    text-align: center;
+    font-size: 18px;
+}
+
+#glossary-container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: "Assistant", sans-serif;
+    column-count: 2;
+    column-gap: 40px;
+}
+
+#glossary-container h3 {
+    color: #333;
+    text-align: center;
+    font-size: 32px;
+    color: #2e3d49;
+    border-bottom: 2px solid #2e3d49;
+    padding-bottom: 3px;
+
+}
+
+#glossary-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#glossary-container li {
+    background: #e2e8f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    break-inside: avoid;
+}
+
+#glossary-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#glossary-container ul li {
+    font-weight: bold;
+}
+
+.term {
+    cursor: pointer;
+    color: #252940;
+    text-decoration: none;
+}
+
+.definition {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+#opening-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#principles-container, #checklist {
+    flex: 1;
+    max-width: 48%;
+    margin: 20px 1%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: "Assistant", sans-serif;
+}
+
+#principles-container h3 {
+    font-size: 18px;
+}
+
+#principles-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#principles-container li {
+    background: #e2e8f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.proTips {
+    font-weight: bold;
+    color: #593C4C;
+}
+
+.content {
+        display: none;
+        transition: max-height 0.2s ease-out;
+}
+.toggleable {
+        cursor: pointer;
+}
+
+.toggleable:after {
+        content: '\02795';
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+}
+
+.active:after {
+        content: "\2796";
+}
+
+#checklist h1 {
+    text-align: center;
+}
+
+#checklist-steps {
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    background-color: #e2e8f0;
+}
+
+#openingVideo {
+    position: relative;
+    top: 2%;
+    right: 13%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #593C4C;
+    margin: 5% auto;
+    padding: 20px;
+    border: 3px solid whitesmoke;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    position: relative;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#myModal .modal-content h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 36px;
+}
+
+.close {
+    color: whitesmoke;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#form-container {
+    padding-top: 20px;
+}
+
+#contactUsForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contactUsForm input[type="text"],
+#contactUsForm input[type="email"],
+#contactUsForm input[type="tel"],
+#contactUsForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#sendForm {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 26px;
+    font-family: "Secular One", sans-serif;
+    cursor: pointer;
+}
+
+#sendForm:hover {
+    background-color: whitesmoke;
+    color: #593C4C;
+}
+
+
+.asterisk {
+    color: orangered;
+    font-weight: 900;
+}
+
+#animationVideo {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 41%;
+    right: 10%;
+}
+
+#piecesHeading {
+    font-size: 88px;
+    position: absolute;
+    top: 11%;
+    right: 25%;
+}
+
+#piecesSubheading {
+    font-size: 26px;
+    position: absolute;
+    top: 23%;
+    right: 27.2%;
+    font-family: "Assistant", sans-serif;
+    font-weight: lighter;
+}
+
+#pieces-container {
+    max-width: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: "Assistant", sans-serif;
+    position: absolute;
+    top: 29%;
+    right: 48%;
+}
+
+#pieces-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pieces-container li {
+    background: #e2e8f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    font-size: 18px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table thead tr {
+    background-color: #593C4C ;
+    color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #593C4C;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #593C4C;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Sitemap styles */
+#sitemap-container {
+    margin-top: 20px;
+}
+
+#sitemap-container a {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e2e8f0;
+    color: #2e3d49;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#sitemap-container a:hover {
+    background-color: #593C4C;
+    color: #fff;
+}
+
+#sitemap-container a:active {
+    background-color: #444;
+    color: #fff;
+}
+
+#sitemap-container a span {
+    display: block;
+    margin-top: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.2rem;
+}

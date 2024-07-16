@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>מילון מושגים</title>
+    <meta name="description" content="מילון המושגים של האתר" />
+    <meta name="keywords" content="מילון מושגים מושג פירוש" />
+    <meta name="author" content="רותם זילברשטיין" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+
+    <link rel="icon" href="Images/icon.png"/>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    </style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+    </style>
+
+<body>
+    <header>
+        <h1><img src="Icons/chess-board.png"/> מהלך מנצח</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">דף הבית</a></li>
+            <li><a href="about.html">אודות</a></li>
+            <li><a href="glossary.html">מילון מושגים</a></li>
+            <li><a href="pieces.html">הכירו את כלי המשחק</a></li>
+            <li><a href="opening.html">עקרונות פתיחה</a></li>
+            <li><a href="#" id="openModalBtn">צרו קשר</a></li>
+            <li><a href="siteMap.html">מפת האתר</a></li>
+        </ul>
+    </nav>
+    <div class="breadcrumb">
+        <a href="index.html">דף הבית</a> &gt; <span>מילון מושגים</span>
+    </div>
+    <main>
+        <h2 id="glossaryHeader">מילון מונחים למתחילים</h2>
+        <h4 id="glossarySubHeader">לחצו על המושג כדי לחשוף את פירושו</h4>
+        <div id="glossary-container">
+            <div id="chess-terms">
+                <h3>יסודות השחמט</h3>
+                <ul>
+                    <li><span class="term">לוח שחמט</span> - <span class="definition">לוח המשחק הסטנדרטי בשחמט, בעל מבנה של 8x8 עם ערוגות בשני צבעים שונים.</span></li>
+                    <li><span class="term">ערוגה (Square)</span> - <span class="definition">המונח המקצועי למשבצות שעל הלוח, המסודרות במבנה של שני צבעים מתוך לבן ושחור במבנה שתי וערב.</span></li>
+                    <li><span class="term">עמודה (Column)</span> - <span class="definition">הקווים האנכיים בלוח השחמט, מחולקים לאותיות A עד H.</span></li>
+                    <li><span class="term">שורה (Row)</span> - <span class="definition">הקווים האופקיים בלוח השחמט, מחולקים למספרים 1 עד 8.</span></li>
+                    <li><span class="term">התפתחות (Development)</span> - <span class="definition">הוצאת כלים מהשורות האחוריות למיקום יעיל יותר בתחילת המשחק.</span></li>
+                    <li><span class="term">עמדה (Position)</span> - <span class="definition">מצב הכלים על הלוח ברגע נתון, כולל יחסי הכוחות והאפשרויות הטקטיות והאסטרטגיות.</span></li>
+                    <li><span class="term">חומר (Material)</span> - <span class="definition">ערך וכמות הכלים של השחקן על הלוח. יתרון בחומר פירושו כלים רבים או חזקים יותר מהיריב.</span></li>
+                </ul>
+                
+                <h3>מהלכים ואסטרטגיות</h3>
+                <ul>
+                    <li><span class="term">פתיחה (Opening)</span> - <span class="definition">המהלך הראשון במשחק שנעשה על ידי הצד הלבן, ומטרתו להניע את החיילים השונים למרכז הלוח.</span></li>
+                    <li><span class="term">התקפה (Attack)</span> - <span class="definition">מהלך או סדרת מהלכים שמטרתם לאיים על כלי היריב או להשיג יתרון מיידי על הלוח.</span></li>
+                    <li><span class="term">הגנה (Defense)</span> - <span class="definition">פעולות שננקטות כדי להגן על כלים מאוימים או למנוע מהיריב להשיג יתרון משמעותי.</span></li>
+                    <li><span class="term">טקטיקות (Tactics)</span> - <span class="definition">תחבולות קצרות-טווח המנצלות מצבים מסוימים על הלוח להשגת יתרון מיידי.</span></li>
+                    <li><span class="term">אסטרטגיה (Strategy)</span> - <span class="definition">תכנון ארוך-טווח של המשחק, כולל מיקום כלים ויצירת יתרונות קטנים לאורך זמן.</span></li>
+                    <li><span class="term">מלכודת (Trap)</span> - <span class="definition">מהלך או רצף מהלכים המפתים את היריב לבצע טעות, לרוב תוך הסתרת הסכנה האמיתית.</span></li>
+                    <li><span class="term">גמביט (Gambit)</span> - <span class="definition">הקרבה מכוונת של כלי (לרוב חייל רגלי) בפתיחה, במטרה להשיג יתרון בעמדה או בהתפתחות.</span></li>
+                </ul>
+                <br/><br/>
+                <h3>מצבים מיוחדים</h3>
+                <ul>
+                    <li><span class="term">שח (Check)</span> - <span class="definition">מצב בו המלך מאוים על ידי כלי יריב, מחייב את השחקן להגן על המלך במהלך הבא.</span></li>
+                    <li><span class="term">מט (Mate)</span> - <span class="definition">מצב בו המלך נמצא בשח ואין דרך חוקית להגן עליו, מסיים את המשחק בניצחון לצד התוקף.</span></li>
+                    <li><span class="term">פט (Stalemate)</span> - <span class="definition">מצב תיקו בו לשחקן אין מהלכים חוקיים אך המלך שלו אינו בשח.</span></li>
+                    <li><span class="term">תיקו (Draw)</span> - <span class="definition">סיום משחק ללא מנצח, יכול לנבוע ממספר סיבות כמו הסכמה הדדית או חוסר חומר מספיק למט.</span></li>
+                </ul>
+                
+                <h3>טעויות וסיומים</h3>
+                <ul>
+                    <li><span class="term">החמצה (Miss)</span> - <span class="definition">אי-ניצול של הזדמנות טובה למהלך חזק או להשגת יתרון משמעותי.</span></li>
+                    <li><span class="term">אי דיוק (Inaccuracy)</span> - <span class="definition">מהלך שאינו אופטימלי אך לא בהכרח טעות גסה, עשוי להוביל לאובדן קטן של יתרון.</span></li>
+                    <li><span class="term">טעות (Mistake)</span> - <span class="definition">מהלך שגוי המוביל לאובדן יתרון או מתן הזדמנות ליריב להשיג יתרון משמעותי.</span></li>
+                    <li><span class="term">טעות חמורה (Blunder)</span> - <span class="definition">טעות קריטית המובילה לאובדן מיידי של חומר משמעותי או אפילו להפסד המשחק.</span></li>
+                    <li><span class="term">חילוף (Trade)</span> - <span class="definition">החלפת כלים בין שני השחקנים, לרוב במטרה לפשט את העמדה או להשיג יתרון קל.</span></li>
+                    <li><span class="term">סיום (Endgame)</span> - <span class="definition">השלב האחרון של המשחק, כאשר נותרו מעט כלים על הלוח וההכרעה קרובה.</span></li>
+                </ul>
+                
+                <h3>מהלכים מיוחדים</h3>
+                <ul>
+                    <li><span class="term">לכידה (Capture)</span> - <span class="definition">הסרת כלי יריב מהלוח על ידי איום עליו ללא אפשרות להגנה.</span></li>
+                    <li><span class="term">מזלג (Fork)</span> - <span class="definition">מצב בו כלי אחד מאיים על שני כלים יריבים או יותר בו-זמנית.</span></li>
+                    <li><span class="term">נעיצה (Pin)</span> - <span class="definition">מצב בו כלי אינו יכול לזוז בגלל שהוא מגן על כלי חשוב יותר מאחוריו.</span></li>
+                    <li><span class="term">שיפוד (Skewer)</span> - <span class="definition">איום על שני כלי יריב בקו ישר, כשהחשוב מקדימה. הזזתו תחשוף את האחורי ללכידה.</span></li>
+                    <li><span class="term">שורת אחורית (Back rank)</span> - <span class="definition">השורה הקרובה ביותר לכל שחקן, בה ממוקמים הכלים הכבדים בתחילת המשחק.</span></li>
+                </ul>
+            </div>
+            <script>
+                document.addEventListener('click', function(event) {
+    if (event.target.classList.contains('term')) {
+        event.target.nextElementSibling.classList.toggle('visible');
+    }
+});
+            </script>
+        </div>
+    </main>
+    <footer>
+        <p> נוצר במסגרת קורס פיתוח אתרי אינטרנט במוסד הטכנולוגי חולון © </p>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="form-container">
+                <h2>צרו קשר</h2>
+                <form id="contactUsForm">
+                    <label for="fullName">שם מלא <span class="asterisk">*</span></label>
+                    <input type="text" id="fullName" placeholder="שם מלא" required>
+                    
+                    <label for="userMail">אימייל <span class="asterisk">*</span></label>
+                    <input type="email" id="userMail" placeholder="אימייל" required>
+                    
+                    <label for="userPhone">טלפון נייד <span class="asterisk">*</span></label>
+                    <input type="tel" id="userPhone" placeholder="מספר טלפון" required>
+                    
+                    <label for="textAreaContent">תוכן ההודעה</label>
+                    <textarea id="textAreaContent" placeholder="יש לכם שאלה? רעיון לתוכן חדש? 
+תשלחו הודעה ונחזור אליכם בהקדם!" rows="8"></textarea>                    
+                    <input type="submit" id="sendForm" value="שלח">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            var btn = document.getElementById("openModalBtn");
+            var modal = document.getElementById("myModal");
+            var span = document.getElementsByClassName("close")[0];
+
+            btn.onclick = function() {
+                if (modal) {
+                    modal.style.display = "block";
+                }
+            }
+
+            span.onclick = function() {
+                if (modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        });
+    </script>
+</body>
+</html>
